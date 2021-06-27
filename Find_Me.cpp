@@ -13,14 +13,14 @@ int main()
     }
     for(i = 0; i < k; i++){
         if(arr[i] == k){
-            cout << "1";
+            cout << "1" << endl;
             break;
         }
     }
       
     if(i == k){
 
-        cout  << "-1";
+        cout  << "-1" << endl;
     }
     
    return 0;
